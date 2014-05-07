@@ -88,6 +88,18 @@
 
 				}
 
+				if($('.header_pixel').outerWidth() <= 200 && $(window).innerWidth() > 640){
+
+					$('.header_pixel').css('min-width',200);
+					$('#load').css('max-width',$(window).innerWidth()-240);
+
+				}else{
+
+					$('.header_pixel').css('min-width','');
+					$('#load').css('max-width','');
+
+				}
+
 				if($(window).innerWidth() <= 640){
 
 					$('.header_pixel, #load, .main_pixel').outerHeight('');
