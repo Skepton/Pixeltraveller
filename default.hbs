@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
 		<link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
 		
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Marvel:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 		{{! Responsive Meta Tags }}
 		<meta name="HandheldFriendly" content="True" />
 		<meta name="MobileOptimized" content="320" />
@@ -75,6 +75,8 @@
 
 			$(window).resize(function(){
 
+				var scroll = $(window).scrollTop();
+
 				$('.header_pixel, #load').outerHeight($(window).innerHeight()-36);
 				$('.main_pixel').outerHeight('')
 
@@ -88,7 +90,7 @@
 
 				}
 
-				if($(window).innerWidth() <= 750){
+				if($(window).innerWidth() < 750){
 
 					$('.header_pixel, #load, .main_pixel').outerHeight('');
 					$('.main_pixel').outerHeight($('.main_pixel').outerHeight()+132);
@@ -135,6 +137,8 @@
 				}
 
 				preview_resize();
+
+				$(window).scrollTop(scroll);
 
 			});
 
@@ -337,11 +341,11 @@
 
 							$(window).trigger('resize');
 							
-						},300);
+						},250);
 
 					});
 
-				},200);
+				},250);
 
 			}
 
