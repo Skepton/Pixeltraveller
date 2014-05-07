@@ -47,7 +47,7 @@ body {
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 750px) {
 
 
 	body{
@@ -133,7 +133,7 @@ body .close{
 
 @-webkit-keyframes smallin {
 	0% {
-	width: 20%;
+	width: 25%;
 	}
 
 	100% {
@@ -144,7 +144,7 @@ body .close{
 
 @keyframes smallin {
 	0% {
-	width: 20%;
+	width: 25%;
 	}
 
 	100% {
@@ -158,7 +158,7 @@ body .close{
 	}
 
 	100% {
-	width: 20%;
+	width: 25%;
 
 	}
 }
@@ -169,7 +169,7 @@ body .close{
 	}
 
 	100% {
-	width: 20%;
+	width: 25%;
 	}
 }
 
@@ -196,7 +196,7 @@ body .close{
 
 .header_pixel.small{
 
-	width: 20% !important;
+	width: 25% !important;
 
 	-webkit-animation: smallout 0.3s 1;
 	animation: smallout  0.3s 1;
@@ -216,7 +216,7 @@ body .close{
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 750px) {
 
 	.header_pixel{
 
@@ -274,7 +274,7 @@ body .close{
 
 	margin: 0px;
 
-	opacity: 0.9;
+	opacity: 0.85;
 
 }
 
@@ -404,7 +404,7 @@ body .close{
 	text-align: center;
 	letter-spacing: 1px;
 
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-weight: 600;
 
 	color: #ffffff;
@@ -442,7 +442,7 @@ body .close{
 	}
 
 	100% {
-	width: 80%;
+	width: 75%;
 
 	}
 }
@@ -453,13 +453,13 @@ body .close{
 	}
 
 	100% {
-	width: 80%;
+	width: 75%;
 	}
 }
 
 @-webkit-keyframes largeout {
 	0% {
-	width: 80%;
+	width: 75%;
 	}
 
 	100% {
@@ -470,7 +470,7 @@ body .close{
 
 @keyframes largeout {
 	0% {
-	width: 80%;
+	width: 75%;
 	}
 
 	100% {
@@ -509,7 +509,7 @@ body .close{
 
 #load.large{
 
-	width:80% !important;
+	width:75% !important;
 
 	-webkit-animation: largein 0.3s 1;
 	animation: largein  0.3s 1;
@@ -518,7 +518,7 @@ body .close{
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 750px) {
 
 	#load{
 
@@ -970,7 +970,7 @@ body .close{
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 750px) {
 
 	.post .postcontent_pixel .image_wrap{
 

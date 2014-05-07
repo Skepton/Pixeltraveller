@@ -80,7 +80,7 @@
 
 				if($('.main_pixel').outerHeight()+132 < $(window).innerHeight()){
 
-					$('.main_pixel').outerHeight($('.main_pixel').parent().height()-18);
+					$('.main_pixel').outerHeight($('.main_pixel').parent().height());
 
 				}else{
 
@@ -88,19 +88,7 @@
 
 				}
 
-				if($('.header_pixel').outerWidth() <= 200 && $(window).innerWidth() > 640){
-
-					$('.header_pixel').css('min-width',200);
-					$('#load').css('max-width',$(window).innerWidth()-240);
-
-				}else{
-
-					$('.header_pixel').css('min-width','');
-					$('#load').css('max-width','');
-
-				}
-
-				if($(window).innerWidth() <= 640){
+				if($(window).innerWidth() <= 750){
 
 					$('.header_pixel, #load, .main_pixel').outerHeight('');
 					$('.main_pixel').outerHeight($('.main_pixel').outerHeight()+132);
