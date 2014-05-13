@@ -33,7 +33,7 @@
 		<script src="/assets/js/jquery.ba-hashchange.min.js"></script>
 		<script type="text/javascript">
 
-			var original_url = 'http://localhost:2368';
+			var original_url = window.location.href.split("#")[0].replace('#','');
 
 			history.navigationMode = 'compatible';
 
