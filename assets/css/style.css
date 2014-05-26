@@ -62,7 +62,7 @@ img{width:100%;margin:0px;}
 h1,h2{font-family: 'Open Sans'}
 
 a{color:#2c3e50; text-decoration: none;}
-a:hover{color:#1abc9c;}
+a:hover{color:#f39c12;}
 
 *,*:before,*:after {
 	-moz-box-sizing: border-box;
@@ -587,7 +587,7 @@ body .close{
 
 .article_pixel .postheader_pixel .posttitle_pixel{
 
-	margin: 0.5em 0em 0em 0em;
+	margin: 0em 0em 0em 0em;
 
 }
 
@@ -614,7 +614,7 @@ body .close{
 
 .article_pixel .postheader_pixel{
 
-	padding: 0em 2em 0em 2em;
+	padding: 1em 2em 0em 2em;
 
 
 }
@@ -659,7 +659,7 @@ body .close{
 
 .article_pixel .postcontent_pixel{
 
-	padding: 1em 2em 0em 2em;
+	padding: 0.5em 2em 0em 2em;
 
 	font-size: 1.0em;
 
@@ -707,7 +707,7 @@ body .close{
 
 	font-weight: 300;
 
-	color: #1abc9c;
+	color: #f39c12;
 
 	text-decoration: underline;
 
@@ -802,10 +802,24 @@ body .close{
 	width: 100%;
 	float: left;
 
-	color: #222222;
+	margin: 1em 0em 0.5em 0em;
 
-	font-weight: 400;
+	color: #222222;
+	font-weight: 600;
 	font-size: 1.7em;
+
+}
+
+.post .postcontent_pixel h3{
+
+	width: 100%;
+	float: left;
+
+	margin: 1em 0em 0.5em 0em;
+
+	color: #222222;
+	font-weight: 400;
+	font-size: 1.4em;
 
 }
 
@@ -833,7 +847,7 @@ body .close{
 	float: left;
 
 	padding:0em;
-	margin-bottom: 1.5em;
+	margin: 0.75em 0em;
 
 	font-size: 1em;
 	font-weight: 300;
@@ -843,9 +857,19 @@ body .close{
 
 }
 
-.post .postcontent_pixel p code{
+.post .postcontent_pixel a{
 
-	float: left;
+	font-size: 1em;
+	font-weight: 400;
+	color: #f39c12;
+
+	text-decoration: underline;
+
+	border-bottom: 0px solid #f5f5f5;
+
+}
+
+.post .postcontent_pixel p code{
 
 	font-size: 1em;
 
@@ -867,6 +891,7 @@ body .close{
 	display: block;
 
 	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin
 
 	font-weight: 400;
 
@@ -900,6 +925,20 @@ body .close{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef4836', endColorstr='#f4d03f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
+}
+
+.post .postcontent_pixel ul, .post .postcontent_pixel ol{
+
+	float:left;
+	width: 100%;
+
+}
+
+.post .postcontent_pixel ul li, .post .postcontent_pixel ol li{
+
+	float:left;
+	width: 100%;
+	
 }
 
 .post .postcontent_pixel .image_wrap_large{
@@ -1058,7 +1097,7 @@ body .close{
 
 .post .author-info a:hover h2{
 
-	color: #1abc9c;
+	color: #f39c12;
 
 }
 
@@ -1170,7 +1209,7 @@ body .close{
 
 .footer_pixel a{
 
-	color: #f4d03f;
+	color: #f39c12;
 
 	font-weight: 600;
 

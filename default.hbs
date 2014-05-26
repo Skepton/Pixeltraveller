@@ -41,7 +41,7 @@
 
 				$(window).hashchange( function(){
 
-					var url = window.location.href.split("#")[1] || original_url+ ' .main_pixel.index';
+					var url = window.location.href.split("#")[1] || original_url+' .main_pixel.index';
 
 					if(url == 'home'){
 
@@ -70,6 +70,8 @@
 				});
 
 				$(window).trigger("hashchange");
+
+				$(window).trigger('resize');
 
 			});
 
@@ -218,8 +220,6 @@
 
 				$('.main_pixel.post').css('min-width',$('.main_pixel.post').width());
 
-				url_load(url);
-
 			});
 
 			function img_check(){
@@ -280,6 +280,7 @@
 
 			function url_load(url){
 
+				console.log(url);
 
 				if(url.indexOf(original_url)>-1){
 
@@ -328,12 +329,12 @@
 							$(this).attr('href','#'+$(this).attr('href'));
 
 						});
+
+						$('#load').scrollTop(0);
 						
 						img_check();
 
 						img_contain();
-
-						//$('#load').scrollTop(0)
 
 						$(window).trigger('resize');
 
