@@ -1,4 +1,12 @@
 {{#post}}
+{{#is "post, page"}}
+<script tpye="text/javascript">
+    if ((window.location.href.match("#") == null) && (window.location.pathname != "/")) {
+        var loc = "/#" + window.location.pathname.substr(1);
+        window.location = loc;
+    }
+</script>
+{{/is}}
 
 <main class="main_pixel post" role="main">
 
