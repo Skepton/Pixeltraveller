@@ -12,8 +12,6 @@ A responsive photocentric dynamic ghost theme.
 
 ##Preview
 
-[Live Demo!](http://blog.antonlantz.nu)
-
 ![image preview](http://pixelkultur.se/wp-content/uploads/2014/05/pixeltraveller.png)
 
 ![interaction preview](http://pixelkultur.se/wp-content/uploads/2014/05/pixeltraveller_interaction.gif)
